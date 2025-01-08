@@ -41,7 +41,7 @@ MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002242697740')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/MovieTimesXDisc') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/+I7ckBD9uI8pmMjc1")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+I7ckBD9uI8pmMjc1")
@@ -49,12 +49,12 @@ TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+I7ckBD9uI8pmMjc1")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "37a75e7d046db1d29b54bccf73339cd0c0c14b97")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'gplinks.com')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "eb3cef5d19adf740e108c4efcd87fdde97e331f4")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'modijiurl.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "37a75e7d046db1d29b54bccf73339cd0c0c14b97")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'gplinks.com')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "eb3cef5d19adf740e108c4efcd87fdde97e331f4")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'modijiurl.com')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "43200"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "43200"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi", "marathi"]
